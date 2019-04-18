@@ -51,6 +51,7 @@ public class CollectionLearn {
 //		cl.removeAll(Arrays.asList("c1","l2"));
 		//获取与指定集合的交集部分(返回值为布尔型 指代是否成功）
 //		boolean b = cl.retainAll(Arrays.asList("111"));
+		// TODO: 2019/4/16 java8新特性学习后补全stram流操作集合内容
 //		cl.stream();
 //		Spliterator<String> spliterator = cl.spliterator();
 //		cl.removeIf();
