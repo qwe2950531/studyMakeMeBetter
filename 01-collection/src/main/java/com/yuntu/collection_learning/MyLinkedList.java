@@ -1,5 +1,10 @@
 package com.yuntu.collection_learning;
 
+/**
+ * @author wang_lei
+ * @date 2019-04-22
+ * todo: LinkedList继续完成
+ */
 public class MyLinkedList<E> {
 
 	class Node <E>{
