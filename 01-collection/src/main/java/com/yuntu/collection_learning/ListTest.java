@@ -1,5 +1,7 @@
 package com.yuntu.collection_learning;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Random;
@@ -49,6 +51,14 @@ public class ListTest {
 		System.out.println(timeTwo-timeOne+"--LinkedList end!sum:"+sumOne);
 		double timeSecond = timeTwo-timeOne;
 //		System.out.println(timeSecond/timeFirst);
+	}
+	@Test
+	public void testList(){
+		MyLinkedList<String> stringMyLinkedList = new MyLinkedList<>();
+		stringMyLinkedList.add(0,"l1");
+		stringMyLinkedList.add(1,"l2");
+		System.out.println(stringMyLinkedList.get(0));
+		System.out.println(stringMyLinkedList.get(1));
 	}
 
 }
