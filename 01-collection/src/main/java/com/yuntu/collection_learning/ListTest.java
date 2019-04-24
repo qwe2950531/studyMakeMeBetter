@@ -55,10 +55,14 @@ public class ListTest {
 	@Test
 	public void testList(){
 		MyLinkedList<String> stringMyLinkedList = new MyLinkedList<>();
-		stringMyLinkedList.add(0,"l1");
-		stringMyLinkedList.add(1,"l2");
-		System.out.println(stringMyLinkedList.get(0));
-		System.out.println(stringMyLinkedList.get(1));
+		for(int i=0;i<stringMyLinkedList.size();i++) {
+			System.out.println(stringMyLinkedList.get(i));
+		}
+		stringMyLinkedList.remove("l2");
+		for(int i=0;i<stringMyLinkedList.size();i++) {
+			System.out.println(stringMyLinkedList.get(i));
+		}
+
 	}
 
 }

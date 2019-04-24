@@ -64,8 +64,14 @@ public class MyLinkedList<E> {
 	}
 
 	public void remove(E e){
-
-		size--;
+		Node node = this.first;
+		while(node.next!=null&&node.next.data!=e){
+			node=node.next;
+		}
+		if(node.next!=null&&node.next.data.equals(e)){
+			node.next=node.next.next;
+			size--;
+		}
 	}
 	public void remove(int index){
 		if(!ensureRange(index)){

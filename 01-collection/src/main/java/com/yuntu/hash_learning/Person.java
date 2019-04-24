@@ -7,7 +7,7 @@ import java.util.Objects;
  * @date 2019-04-16
  * 重写equals hashCode方法练习
  */
-public class Person {
+public class Person implements Comparable{
 	private int id;
 	private String name;
 	private String sex;
@@ -96,5 +96,31 @@ public class Person {
 	@Override
 	public int hashCode() {
 		return Objects.hash(getName(), getSex(), getAge());
+	}
+
+	// 对比方式： 如果本类的属性大于对比的对象中的属性返回整数  则是正序排序 否则倒序排序
+	@Override
+	public int compareTo(Object o) {
+		Person p = (Person)o;
+		if(this.age>p.age) {
+			return 1;
+		} else if(this.age<p.age){
+			return -1;
+		} else if(this.id>p.id){
+			return 1;
+		} else if(this.id<p.id){
+			return -1;
+		}
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Person{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", sex='" + sex + '\'' +
+				", age=" + age +
+				'}';
 	}
 }
