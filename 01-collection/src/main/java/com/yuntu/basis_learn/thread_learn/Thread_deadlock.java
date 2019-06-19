@@ -14,7 +14,6 @@ public class Thread_deadlock {
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
-
 					}
 					System.out.println("entry LockOne");
 					synchronized (lock){

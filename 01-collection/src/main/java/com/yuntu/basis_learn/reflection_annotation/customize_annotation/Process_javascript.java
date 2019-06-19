@@ -37,7 +37,7 @@ public class Process_javascript {
 //		String javascriptTwo = "var number = add(5,2);   print(number)";
 //		engine.eval(javascriptTwo);
 		// 调用javascript 代码并使用java方法
-//		String javascript = " var list =java.util.Arrays.asList(\"hello\",\"hi\");  print(list);";
+//		String javascript = " var array_list =java.util.Arrays.asList(\"hello\",\"hi\");  print(array_list);";
 //		engine.eval(javascript);
 		// 调用javascript file
 		URL resourceAsStream = Process_javascript.class.getClassLoader().getResource("hello.js");

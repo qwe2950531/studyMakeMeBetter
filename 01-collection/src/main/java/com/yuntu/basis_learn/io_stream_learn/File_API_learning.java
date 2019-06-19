@@ -47,10 +47,10 @@ public class File_API_learning {
 //		fileOne.listFiles();
 //
 //		// 列出目录下所有文件名
-//		Arrays.asList(fileOne.list()).forEach(System.out::println);
+//		Arrays.asList(fileOne.array_list()).forEach(System.out::println);
 //
 //		// 根据FilenameFilter 列出文件名
-//		Arrays.asList(fileOne.list((file,name) -> name.contains("."))).forEach(System.out::println);
+//		Arrays.asList(fileOne.array_list((file,name) -> name.contains("."))).forEach(System.out::println);
 //
 //		// 根据fileFilter列出文件list
 //		fileOne.listFiles(new FileFilter() {

@@ -18,7 +18,7 @@ import java.net.URL;
  */
 public class Net_Url {
 	public static void main(String[] args) throws MalformedURLException {
-		URL url = new URL("https://www.jd.com:443");
+		URL url = new URL("http://tingshen.court.gov.cn/court/1722");
 		System.out.println("协议:"+url.getProtocol());
 		System.out.println("主机名:"+url.getHost());
 		System.out.println("端口:"+url.getPort());

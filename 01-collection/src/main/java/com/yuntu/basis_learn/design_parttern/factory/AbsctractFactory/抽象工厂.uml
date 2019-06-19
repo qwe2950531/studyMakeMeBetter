@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory</OriginalElement>
+  <nodes>
+    <node x="171.6062969924812" y="311.0">com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.OldDriver</node>
+    <node x="288.0437969924812" y="0.0">com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Seat</node>
+    <node x="1.9854323308270807" y="0.0">com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Engine</node>
+    <node x="39.077631578947376" y="204.0">com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl</node>
+    <node x="141.30563909774435" y="97.0">com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.CarFactory</node>
+    <node x="137.18477443609024" y="0.0">com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Tyre</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.CarFactory">
+      <point x="20.428571428571416" y="-18.5" />
+      <point x="131.0062030075188" y="164.0" />
+      <point x="177.05563909774435" y="164.0" />
+      <point x="-35.75" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Seat">
+      <point x="40.85714285714286" y="-18.5" />
+      <point x="151.43477443609024" y="174.0" />
+      <point x="328.8571428571429" y="174.0" />
+      <point x="328.8571428571429" y="77.0" />
+      <point x="323.2937969924812" y="77.0" />
+      <point x="-11.75" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl">
+      <point x="-35.75" y="18.5" />
+      <point x="74.82763157894738" y="261.0" />
+      <point x="19.077631578947376" y="261.0" />
+      <point x="19.077631578947376" y="222.5" />
+      <point x="-71.5" y="-0.0" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.OldDriver" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Seat">
+      <point x="53.19999999999999" y="-18.5" />
+      <point x="291.3062969924812" y="291.0" />
+      <point x="350.8571428571429" y="291.0" />
+      <point x="350.8571428571429" y="77.0" />
+      <point x="370.2937969924812" y="77.0" />
+      <point x="35.25" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.OldDriver" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl">
+      <point x="-26.599999999999994" y="-18.5" />
+      <point x="211.50629699248123" y="281.0" />
+      <point x="146.32763157894738" y="281.0" />
+      <point x="35.75" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.OldDriver" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.CarFactory">
+      <point x="0.0" y="-18.5" />
+      <point x="238.1062969924812" y="291.0" />
+      <point x="248.55563909774435" y="291.0" />
+      <point x="35.75" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.CarFactory" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Seat">
+      <point x="47.666666666666686" y="-18.5" />
+      <point x="260.47230576441103" y="77.0" />
+      <point x="299.7937969924812" y="77.0" />
+      <point x="-35.25" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.OldDriver" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Engine">
+      <point x="-53.19999999999999" y="-18.5" />
+      <point x="184.9062969924812" y="291.0" />
+      <point x="0.0" y="291.0" />
+      <point x="0.0" y="77.0" />
+      <point x="16.11043233082708" y="77.0" />
+      <point x="-42.375" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.CarFactory" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Engine">
+      <point x="-47.666666666666686" y="-18.5" />
+      <point x="165.13897243107766" y="57.0" />
+      <point x="100.86043233082708" y="57.0" />
+      <point x="42.375" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Tyre">
+      <point x="0.0" y="-18.5" />
+      <point x="110.57763157894738" y="154.0" />
+      <point x="130.80563909774435" y="154.0" />
+      <point x="130.80563909774435" y="77.0" />
+      <point x="172.05977443609024" y="77.0" />
+      <point x="-11.625" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.impl" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Engine">
+      <point x="-40.85714285714286" y="-18.5" />
+      <point x="69.72048872180451" y="184.0" />
+      <point x="63.98543233082708" y="184.0" />
+      <point x="63.98543233082708" y="77.0" />
+      <point x="72.61043233082708" y="77.0" />
+      <point x="14.125" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.CarFactory" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Tyre">
+      <point x="0.0" y="-18.5" />
+      <point x="212.80563909774435" y="77.0" />
+      <point x="195.30977443609024" y="77.0" />
+      <point x="11.625" y="18.5" />
+    </edge>
+    <edge source="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.OldDriver" target="com.yuntu.basis_learn.design_parttern.factory.AbsctractFactory.Tyre">
+      <point x="26.599999999999994" y="-18.5" />
+      <point x="264.7062969924812" y="281.0" />
+      <point x="299.61813909774435" y="281.0" />
+      <point x="299.61813909774435" y="67.0" />
+      <point x="218.55977443609024" y="67.0" />
+      <point x="34.875" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="410.0" y="232.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

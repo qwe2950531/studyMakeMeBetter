@@ -11,6 +11,7 @@ import java.util.Set;
 
 /**
  * @author wang_lei
+ * 单通多路复用
  */
 public class NIO_learn_selector {
 	@Test
