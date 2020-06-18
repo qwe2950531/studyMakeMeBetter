@@ -31,6 +31,7 @@ public class TableContext {
 	static {
 		Connection con = DBManger.getConn();
 		try {
+
 			DatabaseMetaData databaseMetaData = con.getMetaData();
 			ResultSet tableRet = databaseMetaData.getTables(null,"%","%",new String[]{"TABLE"});
 			while(tableRet.next()){

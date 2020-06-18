@@ -14,6 +14,7 @@ import java.util.Properties;
 public class DBManger {
 	private static Configuration conf;
 	static {
+
 		Properties pros = new Properties();
 		try {
 			pros.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("db.properties"));

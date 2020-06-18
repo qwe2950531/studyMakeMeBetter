@@ -8,7 +8,7 @@ package com.yuntu.basis_learn.thread_learn;
  */
 public class Thread_volatile {
 //	public  static int num = 0;
-	public volatile  static int num = 0;
+	public  volatile static int num = 0;
 
 	public static void main(String[] args) {
 

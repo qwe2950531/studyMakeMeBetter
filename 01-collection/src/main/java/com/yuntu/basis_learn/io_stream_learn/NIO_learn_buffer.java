@@ -72,6 +72,10 @@ public class NIO_learn_buffer {
 		System.out.println(allocate.position());
 		System.out.println(allocate.limit());
 		System.out.println(allocate.capacity());
+		allocate.flip();
+		System.out.println(allocate.position());
+		System.out.println(allocate.limit());
+		System.out.println(allocate.capacity());
 
 	}
 	/**
