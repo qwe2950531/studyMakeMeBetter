@@ -9,6 +9,7 @@ public class Apple {
 		this.color = color;
 	}
 
+
 	public Apple() {
 	}
 
