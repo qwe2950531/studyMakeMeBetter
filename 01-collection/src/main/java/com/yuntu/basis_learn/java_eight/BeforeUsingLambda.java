@@ -1,5 +1,7 @@
 package com.yuntu.basis_learn.java_eight;
 
+import com.yuntu.App;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
@@ -20,14 +22,14 @@ public class BeforeUsingLambda {
 		apples.add(appleFour);
 		System.out.println(apples);
 		BeforeUsingLambda filter = new BeforeUsingLambda();
-		List<Apple> greenApples = filter.filterApples(apples, new AppleFilterGreenPredict());
-		System.out.println(greenApples);
-		List<Apple> greaterApples = filter.filterApples(apples, new AppleFilterWeightGreaterTenPredict());
-		System.out.println(greaterApples);
-		List<Apple> filteredApples = filter.filterApples(apples, (Obect a) ->  a.getWeight()> 10);
+//		List<Apple> greenApples = filter.filterApples(apples, new AppleFilterGreenPredict());
+//		System.out.println(greenApples);
+//		List<Apple> greaterApples = filter.filterApples(apples, new AppleFilterWeightGreaterTenPredict());
+//		System.out.println(greaterApples);
+		List<Apple> filteredApples = filter.filterApples(apples, (Apple a) ->  a.getWeight()> 10);
 		System.out.println(filteredApples);
 	}
-	public List<Apple> filterApples(List<Apple> apples, Predicate<Ao> predict){
+	public List<Apple> filterApples(List<Apple> apples, Predicate<Apple> predict){
 		List result = new ArrayList<Apple>();
 		for(Apple apple : apples){
 			if(predict.test(apple)){

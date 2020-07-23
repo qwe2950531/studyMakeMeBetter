@@ -11,7 +11,7 @@ public class Test {
 		File file = new File("C:\\test.txt");
 		RandomAccessFile raf;
 		raf = new RandomAccessFile(file, "rw");
-		CountDownLatch
+//		CountDownLatch
 //		try {
 //			raf.setLength(1024000);
 //		} catch (IOException e) {
